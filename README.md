@@ -3,19 +3,24 @@
 ## How to Run
 
 1. Create virtual environment:
-python3 -m venv venv
+
+    python3 -m venv venv
 
 2. Activate it:
-source venv/bin/activate
+   
+    source venv/bin/activate
 
 3. Install dependencies:
-pip install -r requirements.txt
+   
+    pip install -r requirements.txt
 
 4. Create a `.env` file in the project root and add your OpenAI API key:
-OPENAI_API_KEY=your_api_key_here
+   
+    OPENAI_API_KEY=your_api_key_here
 
 5. Run the app:
-python3 RAG_app.py
+    
+    python3 RAG_app.py
 
 ## Overview
 
